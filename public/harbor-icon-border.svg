@@ -1,0 +1,66 @@
+ <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="100"
+    height="100"
+    viewBox="0 0 100 100"
+>
+    <defs>
+      <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+        <feDropShadow dx="0" dy="2" stdDeviation="1.5" floodOpacity="0.15" />
+      </filter>
+    </defs>
+    <!-- 加粗的边框，颜色改为深蓝灰色 -->
+    <rect
+      x="0"
+      y="0"
+      width="100"
+      height="100"
+      rx="22"
+      ry="22"
+      fill="#64748b"
+    />
+    <!-- 调整内部白色背景的位置和大小 -->
+    <rect
+      x="4"
+      y="4"
+      width="92"
+      height="92"
+      rx="18"
+      ry="18"
+      fill="#ffffff"
+      filter="url(#shadow)"
+    />
+    <rect
+      x="18"
+      y="18"
+      width="45"
+      height="25"
+      rx="5"
+      ry="5"
+      fill="#cbd5e1"
+      filter="url(#shadow)"
+    />
+    <circle cx="30" cy="30" r="4" fill="#334155" />
+    <rect
+      x="27"
+      y="37"
+      width="45"
+      height="25"
+      rx="5"
+      ry="5"
+      fill="#94a3b8"
+      filter="url(#shadow)"
+    />
+    <circle cx="39" cy="49" r="4" fill="#334155" />
+    <rect
+      x="36"
+      y="56"
+      width="45"
+      height="25"
+      rx="5"
+      ry="5"
+      fill="#64748b"
+      filter="url(#shadow)"
+    />
+    <circle cx="48" cy="68" r="4" fill="#334155" />
+  </svg>
